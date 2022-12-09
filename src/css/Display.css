@@ -1,0 +1,11 @@
+.display-container {
+    background-color: blue;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-right: 0.5rem;
+    color: white;
+    font-weight: bold;
+}
