@@ -13,7 +13,12 @@ function App() {
     };
     const evaluateDisplay = () => {
         if (displayContent !== '') {
-            setDisplayContent(evaluate(displayContent));
+
+            try {
+                setDisplayContent(evaluate(displayContent));
+            } catch (error) {
+                alert("Enter a correct statment")
+            }
         }
     };
     const restartDisplay = () => {
