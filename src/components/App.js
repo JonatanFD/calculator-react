@@ -13,7 +13,6 @@ function App() {
     };
     const evaluateDisplay = () => {
         if (displayContent !== '') {
-
             try {
                 setDisplayContent(evaluate(displayContent));
             } catch (error) {
